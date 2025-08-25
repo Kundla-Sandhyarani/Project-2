@@ -1,0 +1,7 @@
+- name: Deploy WAR to Tomcat
+  hosts: tomcat
+  tasks:
+    - name: Copy WAR file
+      copy:
+        src: target/demo.war
+        dest: /home/ec2-user/tomcat/webapps/demo.war
