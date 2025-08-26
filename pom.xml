@@ -7,7 +7,7 @@
     <groupId>com.kundla</groupId>
     <artifactId>project-2</artifactId>
     <version>1.0.0</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>Project 2</name>
     <description>Sample Java project for Jenkins CI/CD</description>
