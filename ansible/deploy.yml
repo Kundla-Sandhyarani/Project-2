@@ -3,5 +3,5 @@
   tasks:
     - name: Copy WAR file
       copy:
-        src: target/demo.war
+        src: /var/lib/jenkins/workspace/Project-2/target/demo.war
         dest: /home/ec2-user/tomcat/webapps/demo.war
